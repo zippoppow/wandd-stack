@@ -2,11 +2,8 @@ import Head from 'next/head'
 import styles from './layout.module.scss'
 import utilStyles from '../styles/utils.module.scss'
 import Link from 'next/link'
-
 import { Container, Row, Col } from 'react-bootstrap'
 
-
-const name = 'Your Name'
 export const siteTitle = 'Walter and Donny | Official Band Site'
 
 export default function Layout({ children, home }) {
@@ -16,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Walter and Donny | Official Band Site. Cosmic Americana music at its finest."
         />
         <meta
           property="og:image"
@@ -28,40 +25,38 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Container>
-      <Row>
-        <Col xs={12} md={12}>
-          <div>
-                  {home ? (
-                  <>
-                      <img
-                      src="/images/wanddlogo.png"
-                      className={`${styles.headerHomeImage}`}
-                      alt={name}
-                      />
-                  </>
-                  ) : (
-                  <>
-                      <Link href="/">
-                      <a>
-                          <img
-                          src="/images/wanddlogo.png"
-                          className={`${styles.headerImage}`}
-                          alt={name}
-                          />
-                      </a>
-                      </Link>
-                  </>
-                  )}
-          </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={12} md={12} lg={4}>
-          <Link href="/about">
-            <a className={utilStyles.colorInherit}>About</a>
-          </Link>
-        </Col>
-      </Row>  
+        <Row>
+          <Col xs={12} md={12}>
+                    {home ? (
+                    <>
+                        <img
+                        src="/images/wanddlogo.png"
+                        className={`${styles.headerHomeImage}`}
+                        alt="Walter and Donny | Official Band Site"
+                        />
+                    </>
+                    ) : (
+                    <>
+                        <Link href="/">
+                        <a>
+                            <img
+                            src="/images/wanddlogo.png"
+                            className={`${styles.headerImage}`}
+                            alt="Walter and Donny | Official Band Site"
+                            />
+                        </a>
+                        </Link>
+                    </>
+                    )}
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={12} lg={4}>
+            <Link href="/about">
+              <a className={utilStyles.colorInherit}>About</a>
+            </Link>
+          </Col>
+        </Row>  
       </Container>
       <main>{children}</main>
       {!home && (
