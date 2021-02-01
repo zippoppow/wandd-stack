@@ -7,7 +7,7 @@ export default function About() {
   return (
     <Layout>
       <Head>
-        <title>About Walter and Donny</title>
+        <title>Walter and Donny | About</title>
       </Head>
       <Container>
         <Row>
