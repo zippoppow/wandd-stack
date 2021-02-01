@@ -4,8 +4,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.scss'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import ReactPlayer from "react-player"
-
+import ThePlayer from "../components/reactPlayer/reactPlayer"
 
 const Home = () => (
   <>
@@ -16,19 +15,12 @@ const Home = () => (
       <Container>
       <Row>
         <Col xs={12} md={12}>
-          <h2 className={utilStyles.centerText}>NEW ALBUM: ROAD 2 CASCADIA!</h2>
+          <ThePlayer />
         </Col>
       </Row>
       <Row>
         <Col xs={12} md={12}>
-        <div className={utilStyles.ReactPlayerWrapper}>
-          <ReactPlayer
-            url='https://soundcloud.com/walter-and-donny/sets/road-2-cascadia'
-            width='42rem'
-            height='42rem'
-            light='true'
-          />
-        </div>
+          <h2 className={utilStyles.centerText}>NEW ALBUM!</h2>
         </Col>
       </Row>
       </Container>

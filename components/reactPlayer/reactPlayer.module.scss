@@ -1,0 +1,17 @@
+
+
+.ReactPlayerWrapper {
+    margin: 1rem auto;
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .thePlayer {
+    background: url('/images/Road2CascadiaCover2.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+  }
