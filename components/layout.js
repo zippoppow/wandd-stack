@@ -3,12 +3,15 @@ import styles from './layout.module.scss'
 import utilStyles from '../styles/utils.module.scss'
 import Link from 'next/link'
 
+import { Container, Row, Col } from 'react-bootstrap'
+
+
 const name = 'Your Name'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Walter and Donny | Official Band Site'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.innerContainer}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -24,38 +27,42 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <div>
-                {home ? (
-                <>
-                    <img
-                    src="/images/wanddlogo.png"
-                    className={`${styles.headerHomeImage}`}
-                    alt={name}
-                    />
-                </>
-                ) : (
-                <>
-                    <Link href="/">
-                    <a>
-                        <img
-                        src="/images/wanddlogo.png"
-                        className={`${styles.headerImage}`}
-                        alt={name}
-                        />
-                    </a>
-                    </Link>
-                </>
-                )}
-        </div>
-        <ul>
-            <li>
-                <Link href="/about">
-                    <a className={utilStyles.colorInherit}>About</a>
-                </Link>
-            </li>
-        </ul>
-      </header>
+      <Container>
+      <Row>
+        <Col xs={12} md={12}>
+          <div>
+                  {home ? (
+                  <>
+                      <img
+                      src="/images/wanddlogo.png"
+                      className={`${styles.headerHomeImage}`}
+                      alt={name}
+                      />
+                  </>
+                  ) : (
+                  <>
+                      <Link href="/">
+                      <a>
+                          <img
+                          src="/images/wanddlogo.png"
+                          className={`${styles.headerImage}`}
+                          alt={name}
+                          />
+                      </a>
+                      </Link>
+                  </>
+                  )}
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={12} lg={4}>
+          <Link href="/about">
+            <a className={utilStyles.colorInherit}>About</a>
+          </Link>
+        </Col>
+      </Row>  
+      </Container>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
