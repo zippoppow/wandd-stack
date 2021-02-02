@@ -24,12 +24,12 @@ export default function Road2Cascadia() {
             <h2>Road 2 Cascadia is a Raucous Road Trip Through the American West</h2>
 <p>By Hector Seengs
 </p><p>
-Bowling Stoned Magazine, Jan 2020
+Bowling Stoned Magazine, Jan 2021
 </p><p>
-Walter and Donny’s latest release, <em className={roadStyles.boldEmphasis}>Road 2 Cascadia</em> is an aural fantasy rooted in gothic Americana and buoyed by airy guitar tapestries, gritty Allman Brothers hooks and soaring poetic license. From the first notes of the overture-like opening track, itself a trilogy with multiple chapters, Walter and Donny signal their intent to take you on a journey across the vast wilderness of the American Northwest. Only we are floating on a cushion of swirling guitar lines deftly avoiding calamitous cliffside collisions
-W&amp;D revel in trickery, as in <em className={roadStyles.boldEmphasis}>Cascadia</em>, postiting rootsy grooves which lead you down a forest path alongside a tumbling stream, only to present a ski jump launching us into unknown mountains in the clouds, floating.
+Walter and Donny’s latest release, <em className={roadStyles.boldEmphasis}>Road 2 Cascadia</em> is an aural fantasy rooted in gothic Americana and buoyed by airy guitar tapestries, gritty Allman Brothers hooks and soaring poetic license. From the first notes of the overture-like opening track, itself a trilogy with multiple chapters, Walter and Donny signal their intent to take you on a journey across the vast wilderness of the American Northwest. Only, we are floating on a cushion of swirling guitar lines, deftly avoiding calamitous cliffside collisions.
+Walter and Donny revel in trickery, as in <em className={roadStyles.boldEmphasis}>Cascadia</em>, postiting rootsy grooves which lead you down a forest path alongside a tumbling stream, only to present a ski jump launching us into unknown mountains in the clouds, floating.
 </p><p>
-<em className={roadStyles.boldEmphasis}>She Lies Awake</em>, again takes us on a ride, inviting us to shuffle into an 80s rocker, as if The Cars came up in Austin, TX. Only our ride veers of the road to trace a path through endless desert plains, wind in our hair, with no need to step on the brakes or turn the wheel. Driving guitar riffs lurch continually forward until the needle hits empty.
+<em className={roadStyles.boldEmphasis}>She Lies Awake</em>, again, takes us on a ride, inviting us to shuffle into an 80s rocker, as if The Cars came up in Austin, TX. Only our ride veers of the road to trace a path through endless desert plains, wind in our hair, with no need to step on the brakes or turn the wheel. Driving guitar riffs lurch continually forward until the needle hits empty.
 </p><p>
 <em className={roadStyles.boldEmphasis}>Edge of Everything</em> promises a hint of reprieve, uniting the wonder of universal expanse and personal experience using the woven lines of multiple guitars as the comforting hammock, until the promise of realization prompts us to jump into a country porch groove, if country porch grooves had the full compliment of crash cymbals.
 </p><p>
