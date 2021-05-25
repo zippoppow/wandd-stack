@@ -11,12 +11,28 @@ export default function Road2Cascadia() {
   return (
     <Layout>
       <Head>
-        <title>Walter and Donny | Ablum: Road 2 Cascadia</title>
+        <title>Walter and Donny | Album: Road 2 Cascadia</title>
       </Head>
       <Container>
         <Row>
           <Col xs={12} md={12}>
             <ThePlayer />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={12}>
+            <p>
+              1. Open Road - Open Road Part Deux - Sunny Day<br/>
+              <Link href="/albums/cascadia">2. Cascadia</Link><br/>
+              3. She Lies Awake<br/>
+              4. Edge of Everything<br/>
+              5. Cascadia's Reprisal<br/>
+              6. Cody's Hometown Bar<br/>
+              7. You are the Light in My Eyes<br/>
+              8. Roads to You<br/>
+              9. You Will Always be Beautiful<br/>
+              10. I'm All Yours
+            </p>
           </Col>
         </Row>
         <Row>

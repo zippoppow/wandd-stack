@@ -53,7 +53,11 @@ export default function Layout({ children, home }) {
         <Row>
           <Col xs={12} md={12} lg={4}>
             <Link href="/about">
-              <a className={utilStyles.colorInherit}>About</a>
+              <a className={styles.navItem}>About</a>
+            </Link>
+            <span>&nbsp;|&nbsp;</span>
+            <Link href="/albums/road-2-cascadia">
+              <a className={styles.navItem}>Road&nbsp;2&nbsp;Cascadia</a>
             </Link>
           </Col>
         </Row>  
