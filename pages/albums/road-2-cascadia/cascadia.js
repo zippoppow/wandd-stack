@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import Layout from '../../components/layout'
+import Layout from '../../../components/layout'
 
 
-import roadStyles from './road.module.scss'
+import roadStyles from '../../../pages/albums/road.module.scss'
 
 export default function Cascadia() {
   return (

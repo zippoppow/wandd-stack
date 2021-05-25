@@ -23,7 +23,7 @@ export default function Road2Cascadia() {
           <Col xs={12} md={12}>
             <p>
               1. Open Road - Open Road Part Deux - Sunny Day<br/>
-              <Link href="/albums/cascadia">2. Cascadia</Link><br/>
+              <Link href="/albums/road-2-cascadia/cascadia">2. Cascadia</Link><br/>
               3. She Lies Awake<br/>
               4. Edge of Everything<br/>
               5. Cascadia's Reprisal<br/>
