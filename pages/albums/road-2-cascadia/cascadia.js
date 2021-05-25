@@ -79,6 +79,7 @@ export default function Cascadia() {
 
 
 </p>
+<p>&copy; 2021, McFarlin Stewart</p>
             </Col>
         </Row>
       </Container>
