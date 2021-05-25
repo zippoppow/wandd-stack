@@ -11,7 +11,7 @@ export default function ThePlayer() {
             url='https://soundcloud.com/walter-and-donny/sets/road-2-cascadia'
             light='true'
             width='100%'
-          height='100%'
+            height='100%'
           />
         </div>
       </>
