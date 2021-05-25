@@ -16,7 +16,7 @@ export default function Cascadia() {
       <Container>
         <Row>
           <Col xs={12} md={12}>
-            <img src="/images/Cascadia4.jpg" width="900px" height="400px" alt="Album: Road 2 Cascadia | Song: Cascadia" />
+            <img src="/images/Cascadia4.png" width="900px" height="400px" alt="Album: Road 2 Cascadia | Song: Cascadia" />
           </Col>
         </Row>
         <Row>
