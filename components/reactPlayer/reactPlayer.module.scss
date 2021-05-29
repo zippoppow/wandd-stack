@@ -1,17 +1,117 @@
 
 
 .ReactPlayerWrapper {
-    margin: 1rem auto;
-    position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
-  }
+  margin: 1rem auto;
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
   
-  .thePlayer {
-    background: url('/images/Road2CascadiaCover2.png');
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height:100%;
-    width: 100%;
-  }
+.thePlayer {
+  background: url('/images/road-2-cascadia/Road2CascadiaCover2.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerAlwaysBeBeautiful{
+  background: url('/images/road-2-cascadia/you-will-always-be-beautiful-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerCascadia{
+  background: url('/images/road-2-cascadia/Cascadia-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerReprisal{
+  background: url('/images/road-2-cascadia/cascadias-reprisal-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerCodyBar{
+  background: url('/images/road-2-cascadia/Codys-Hometown-Bar-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerEdgeEverything{
+  background: url('/images/road-2-cascadia/edge-of-everything-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerImAllYours{
+  background: url('/images/road-2-cascadia/im-all-yours-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerLightInEyes{
+  background: url('/images/road-2-cascadia/light-in-eyes-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerOpenRoad{
+  background: url('/images/road-2-cascadia/opening-open-road-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerRoadsToYou{
+  background: url('/images/road-2-cascadia/roads-to-you-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}
+
+.thePlayerSheLiesAwake{
+  background: url('/images/road-2-cascadia/she-lies-awake-Header.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+}

@@ -25,7 +25,7 @@ const Home = () => (
         <Row>
           <Col xs={12} md={12} className={homeStyles.coverImg}>
             <Link href="/albums/road-2-cascadia">
-              <img src="/images/Road2CascadiaCover2.png" />
+              <img src="/images/road-2-cascadia/Road2CascadiaCover2.png" />
             </Link>
           </Col>
         </Row>

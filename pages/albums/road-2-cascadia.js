@@ -16,22 +16,22 @@ export default function Road2Cascadia() {
       <Container>
         <Row>
           <Col xs={12} md={12}>
-            <ThePlayer />
+            <ThePlayer url='https://soundcloud.com/walter-and-donny/sets/road-2-cascadia' width='100%' height='100%' playerStyle='thePlayer' />
           </Col>
         </Row>
         <Row>
           <Col xs={12} md={12}>
             <p>
-              1. Open Road - Open Road Part Deux - Sunny Day<br/>
+              <Link href="/albums/road-2-cascadia/open-road">1. Open Road - Open Road Part Deux - Sunny Day</Link><br/>
               <Link href="/albums/road-2-cascadia/cascadia">2. Cascadia</Link><br/>
-              3. She Lies Awake<br/>
-              4. Edge of Everything<br/>
-              5. Cascadia's Reprisal<br/>
-              6. Cody's Hometown Bar<br/>
-              7. You are the Light in My Eyes<br/>
-              8. Roads to You<br/>
-              9. You Will Always be Beautiful<br/>
-              10. I'm All Yours
+              <Link href="/albums/road-2-cascadia/she-lies-awake">3. She Lies Awake</Link><br/>
+              <Link href="/albums/road-2-cascadia/edge-of-everything">4. Edge of Everything</Link><br/>
+              <Link href="/albums/road-2-cascadia/cascadias-reprisal">5. Cascadia's Reprisal</Link><br/>
+              <Link href="/albums/road-2-cascadia/codys-hometown-bar">6. Cody's Hometown Bar</Link><br/>
+              <Link href="/albums/road-2-cascadia/light-in-my-eyes">7. You are the Light in My Eyes</Link><br/>
+              <Link href="/albums/road-2-cascadia/roads-to-you">8. Roads to You</Link><br/>
+              <Link href="/albums/road-2-cascadia/always-be-beautiful">9. You Will Always be Beautiful</Link><br/>
+              <Link href="/albums/road-2-cascadia/im-all-yours">10. I'm All Yours</Link>
             </p>
           </Col>
         </Row>
