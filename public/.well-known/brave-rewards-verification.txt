@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: walter-and-donny.com
+Token: 6d0634e60edeb8ca87c2cfffe93bd144ce8be0786b2aa83e10b24791328501c7
