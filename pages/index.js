@@ -12,7 +12,7 @@ const Home = () => (
   <>
   <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} | walteranddonny.crypto</title>
       </Head>
       <Container>
         <Row>
