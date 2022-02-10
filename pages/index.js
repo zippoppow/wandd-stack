@@ -5,7 +5,6 @@ import Layout, { siteTitle } from '../components/layout'
 import homeStyles from '../styles/home.module.scss'
 import utilStyles from '../styles/utils.module.scss'
 import { Container, Row, Col } from 'react-bootstrap'
-
 import ThePlayer from "../components/reactPlayer/reactPlayer"
 
 const Home = () => (
