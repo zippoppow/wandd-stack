@@ -51,7 +51,8 @@ export default function Layout({ children, home }) {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={12} lg={4}>
+          <Col xs={2} md={2} lg={2}></Col>
+          <Col xs={8} md={8} lg={8}>
             <Link href="/about">
               <a className={styles.navItem}>About</a>
             </Link>
@@ -59,14 +60,19 @@ export default function Layout({ children, home }) {
             <Link href="/albums/road-2-cascadia">
               <a className={styles.navItem}>Road&nbsp;2&nbsp;Cascadia</a>
             </Link>
+            <span>&nbsp;|&nbsp;</span>
+            <Link href="/albums/the-great-mystery">
+              <a className={styles.navItem}>The Great Mystery</a>
+            </Link>
           </Col>
+          <Col xs={2} md={2} lg={2}></Col>
         </Row>  
       </Container>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Back home</a>
           </Link>
         </div>
       )}
