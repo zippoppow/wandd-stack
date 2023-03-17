@@ -5,13 +5,14 @@
 }
   
 .thePlayer {
-  background: url('/images/road-2-cascadia/Road2CascadiaCover2.png');
-  background-size: cover;
+  background: url('/images/WandDVideoPlayer.png');
+  background-size: contain;
   position: absolute;
   top: 0;
   left: 0;
   height:100%;
   width: 100%;
+  background-repeat: no-repeat;
 }
 
 .thePlayerAlwaysBeBeautiful{
