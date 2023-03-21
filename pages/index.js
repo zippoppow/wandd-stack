@@ -12,19 +12,17 @@ const Home = () => (
   <Layout home>
       <Header siteTitle={siteTitle} />
       <Container>
-      <Row>
-          <Col xs={12} md={12} className={homeStyles.coverText}>
-            <Link href="/albums/the-great-mystery">
-              <h2 className={utilStyles.centerText}>Live WATCH PARTY!</h2>
-            </Link>
-            <h4 className={utilStyles.centerText}>Sunday, March 26 2023</h4>
-            <h4 className={utilStyles.centerText}>12PM PST</h4>
-          </Col>
-        </Row>
         <Row>
           <Col xs={12} md={12} className={homeStyles.coverImg}>
             <Link href="/albums/the-great-mystery">
               <img src="/images/The-Great-Mystery/TheGreatMystery_Official_video.png" />
+            </Link>
+          </Col>
+        </Row> 
+        <Row>
+          <Col xs={12} md={12} className={homeStyles.coverImg}>
+            <Link href="/albums/the-great-mystery">
+            <img src="/images/The-Great-Mystery/TheGreatMysteryWatchParty.png" />
             </Link>
           </Col>
         </Row> 
