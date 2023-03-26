@@ -19,3 +19,21 @@
         max-height: 48rem;
     }
 }
+
+.promoImg{
+    text-align: center;
+    margin: 1rem auto;
+   
+
+    img{
+        width: 100%;
+        max-width: 48rem;
+        cursor: pointer;
+    }
+}
+
+.promoCTA {
+    width: 100px;
+    max-width: 100px;
+    margin: 0 auto;
+}

@@ -13,17 +13,24 @@ const Home = () => (
       <Header siteTitle={siteTitle} />
       <Container>
         <Row>
-          <Col xs={12} md={12} className={homeStyles.coverImg}>
+          <Col xs={5} md={5} className={homeStyles.coverImg}>
+            <Link href="/albums/the-great-mystery">
+              <img src="/images/The-Great-Mystery/TheGreatMysteryWatchParty.png" />
+            </Link>          
+          </Col>
+          <Col xs={7} md={7} className={homeStyles.promoImg}>
             <Link href="/albums/the-great-mystery">
               <img src="/images/The-Great-Mystery/TheGreatMystery_Official_video.png" />
             </Link>
-          </Col>
-        </Row> 
-        <Row>
-          <Col xs={12} md={12} className={homeStyles.coverImg}>
-            <Link href="/albums/the-great-mystery">
-            <img src="/images/The-Great-Mystery/TheGreatMysteryWatchParty.png" />
-            </Link>
+            <h2>The Great Mystery Premieres at 12:20pm PST</h2>
+            <p>
+              <div>If you just want to get to the Watch Party click Image below:</div>
+              <div className={homeStyles.promoCTA}>
+                <Link href="https://zoom.us/j/97921168271?pwd=RGhXNG1nc29zNVZCTWFmSVdORGxPdz09">
+                  <img src="/images/The-Great-Mystery/WatchPartyCTA.png" />
+                </Link>
+              </div>
+            </p>
           </Col>
         </Row> 
         {/* <Row>
