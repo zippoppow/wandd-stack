@@ -51,21 +51,27 @@ export default function Layout({ children, home }) {
           </Col>
         </Row>
         <Row>
-          <Col xs={2} md={2} lg={2}></Col>
-          <Col xs={8} md={8} lg={8}>
+          <Col xs={12} md={12} lg={12}>
             <Link href="/about">
               <a className={styles.navItem}>About</a>
+            </Link>
+            <span>&nbsp;|&nbsp;</span>
+            <Link href="/albums/the-great-mystery">
+              <a className={styles.navItem}>The&nbsp;Great&nbsp;Mystery</a>
             </Link>
             <span>&nbsp;|&nbsp;</span>
             <Link href="/albums/road-2-cascadia">
               <a className={styles.navItem}>Road&nbsp;2&nbsp;Cascadia</a>
             </Link>
             <span>&nbsp;|&nbsp;</span>
-            <Link href="/albums/the-great-mystery">
-              <a className={styles.navItem}>The Great Mystery</a>
+            <Link href="/albums/pipeline-bluez">
+              <a className={styles.navItem}>Pipeline&nbsp;Bluez</a>
+            </Link>
+            <span>&nbsp;|&nbsp;</span>
+            <Link href="/albums/back-to-wyoming">
+              <a className={styles.navItem}>Back&nbsp;to&nbsp;Wyoming</a>
             </Link>
           </Col>
-          <Col xs={2} md={2} lg={2}></Col>
         </Row>  
       </Container>
       <main>{children}</main>

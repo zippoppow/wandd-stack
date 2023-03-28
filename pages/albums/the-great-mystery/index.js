@@ -15,18 +15,6 @@ const TheGreatMystery = () => {
         <Row>
           <Col xs={12} md={12} className={homeStyles.coverText}>
             <h2>ALL ABOARD!!</h2>
-            <h3>New music video: The Great Mystery.</h3>
-            <p>Sunday, March 26, at 12PM PST/3PM EST</p>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={4} md={4} className={homeStyles.coverImg}>        
-            <Link href="https://zoom.us/j/97921168271?pwd=RGhXNG1nc29zNVZCTWFmSVdORGxPdz09">
-              <h3>Join Watch Party | 12PM PST/3PM EST</h3>
-            </Link>
-          </Col>
-          <Col xs={8} md={8} className={homeStyles.coverImg}>
-            <h3>View Here</h3>
             <ThePlayer url='https://youtu.be/4644VeW1wvg' width='100%' height='100%' playerStyle='thePlayer' />
           </Col>
         </Row>
@@ -78,8 +66,7 @@ Weigh anchor<br/>
 
 leave dock.<br/>
 
-
- You're time here is through.<br/>
+You're time here is through.<br/>
 
 Thinkin'  how you lived your life<br/>
 
