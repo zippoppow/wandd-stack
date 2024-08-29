@@ -15,7 +15,6 @@ To start your project, either:
 ```bash
 npm install
 ```
-
 This will take some time and will install all packages necessary to run the starter.
 
 ### Development
